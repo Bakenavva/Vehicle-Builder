@@ -4,7 +4,7 @@ class Wheel {
   private diameter: number;
   private tireBrand: string;
 
-  // Constructor for the Wheel class
+  // Constructor for the Wheel class; Has default values!
   constructor(diameter: number = 18, tireBrand: string = "GoodYear") {
     this.diameter = diameter;
     this.tireBrand = tireBrand;

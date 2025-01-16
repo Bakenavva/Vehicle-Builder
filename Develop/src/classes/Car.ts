@@ -27,7 +27,6 @@ class Car extends Vehicle {
   ) {
     // Call the constructor of the parent class, Vehicle
     super();
-
     // Initialize properties of the Car class
     this.vin = vin;
     this.color = color;
@@ -36,9 +35,7 @@ class Car extends Vehicle {
     this.year = year;
     this.weight = weight;
     this.topSpeed = topSpeed;
-    // Check if the wheels array has 4 elements
-    // If not, create 4 new Wheel objects
-    // Otherwise, use the provided wheels array
+    // Corrects number of wheels if not 4
     if (wheels.length !== 4) {
       this.wheels = [new Wheel(), new Wheel(), new Wheel(), new Wheel()];
     } else {
@@ -50,7 +47,6 @@ class Car extends Vehicle {
   override printDetails(): void {
     // Call the printDetails method of the parent class, Vehicle
     super.printDetails();
-
     // Print details of the Car class
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
@@ -59,7 +55,6 @@ class Car extends Vehicle {
     console.log(`Year: ${this.year}`);
     console.log(`Weight: ${this.weight} lbs`);
     console.log(`Top Speed: ${this.topSpeed} mph`);
-
     // Print details of the wheels
     console.log(
       `Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
