@@ -32,7 +32,7 @@ npm start
 
 You will know the program has been started as the following will display in the console:
 
-![alt text](![alt text](https://github.com/Bakenavva/Vehicle-Builder/blob/main/Develop/images/Vehicle-Builder-Initialized.png))
+![alt text](https://github.com/Bakenavva/Vehicle-Builder/blob/main/Develop/images/Vehicle-Builder-Initialized.png)
 
 To see application functioning: [tech demo](#links) below!
 
